@@ -102,7 +102,7 @@
           });
           this.invitedEmails = await this.emails;
           const res = await client.post(
-              resources.tenants + `${this.tenantDomain}/invitation_codes/`,
+              resources.tenants + `${this.tenantDomain}/invitation-codes/`,
               payload);
           this.sendingInvitation = await false;
           this.sentInvitation = await true;
