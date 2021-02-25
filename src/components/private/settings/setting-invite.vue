@@ -95,7 +95,6 @@
           this.sendingInvitation = true;
           const payload = this.emails.map((elem, index, array) => {
             return {
-              tenant_id: this.tenantId,
               tenant_user_id: this.tenantUserId,
               email: elem,
             };

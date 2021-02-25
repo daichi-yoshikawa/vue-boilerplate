@@ -70,7 +70,6 @@
       createInvitedTenantUser: async function () {
         const payload = {
             invitation_code: this.invitationCode,
-            tenant_id: this.tenant.id,
             user_id: this.userId,
             title: '',
             description: '',
